@@ -1,0 +1,27 @@
+
+body {
+    background-image: url("Website_LandingPage_Background2.png");
+    background-size: 100%;
+    background-position: 50% 9%;
+    text-align: right;
+}
+
+p {
+    color: rgb(239,235,191);
+    font-family: "Georgia";
+    font-size: 36px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(239,235,191);
+    font-family: "Georgia";
+    font-size: 36px;
+    text-align: left;
+}
+
+a {
+    color: rgb(255,247,178);
+    font-family: "Georgia";
+    font-size: 36px;
+}
