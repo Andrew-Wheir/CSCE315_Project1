@@ -1,0 +1,66 @@
+body {
+    background-image: url("brown.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+p, h1 {
+    font-family: "Garmond";
+    text-align: left;
+}
+
+p {
+    font-size: 30px;
+    color: rgb(35,35,35);
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 72px;
+    color: rgb(81,12,0);
+
+    line-height: 0px;
+}
+
+a {
+    font-family: "Garmond";
+    color: rgb(239,235,191);
+    font-size: 30px;
+}
+
+.sidenav {
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    text-align: right;
+}
+  
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+
+    line-height: 60px;
+}
+
+.sidenav a:hover {
+    color: rgb(241,241,241);
+}
+  
+
+.body-text {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 500px;
+    padding: 0px 10px;
+}
+  
+
+a:link    {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:active  {text-decoration: none;}

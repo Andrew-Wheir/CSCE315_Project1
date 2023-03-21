@@ -5,13 +5,35 @@
         <title>Andrew Wheir's Webpage</title>
     </head>
     <body>
-        <h1>Projects</h1>
-        <p>Page with my technical portfolio and personal projects, eventually</p>
-        <a href="index.html">Home Page<br></a>
-        <a href="about.html">About Me<br></a>
-        <a href="resume.html">Resume<br></a>
-        <a href="service.html">Service<br></a>
-        <a href="portfolio.html">Projects<br></a>
-        <a href="contact.html">Contact</a>
+        <h1>Andrew Wheir - Projects</h1>
+        <script src="functions.js"></script>
+        <div class="sidenav">
+            <a onclick = "switchLand()" href="index.html">Home Page<br></a>
+            <a href="about.html">About Me<br></a>
+            <a href="resume.html">Resume<br></a>
+            <a href="service.html">Service<br></a>
+            <a href="portfolio.html">Projects<br></a>
+            <a href="contact.html">Contact</a>
+            <a onclick = "switchTheme()">Switch Theme</button></a>
+        </div>
+        <div class="body-text">
+            <p>
+                Computer Controller Program - A java program that automatically opens up Zoom calls 10 minutes before they start. I made this during 
+                my freshman year (and the pandemic), as I would be working on a project on my laptop, and forget that class was starting. I used OOP 
+                to make custom classes, scanner for file I/O and reading a CSV file containing my schedule, and Java's Robot class to type the URL's. Also, 
+                <a href="https://xkcd.com/1319/"> relevant XKCD</a>.<br><br>
+
+                GPA Calculator - A python script that takes in your class schedule and grades, and outputs our GPA. I made this program so
+                I could very easily see how well I needed to do on some classes to get into the Computer Science program. Whether I am currently
+                in the Computer Science department because I knew what grades I needed to get or because I learned more about coding while making
+                this program is up for you to decide.<br><br>
+
+                In my free time, I also do alot of 3D Modeling in Autodesk Inventor. Here is the coolest thing I've made recently, a <a href="https://www.3dbenchy.com/">3D Benchy</a>
+                made completly out of flat pieces, that I plan on laser cutting sometime soon:<br>
+                <img src="flat_3D_benchy.png" alt="Model of a boat made of flat pieces" style="width:690px;height:627px">
+            </p>
+        </div>
     </body>
 </html>
+
+

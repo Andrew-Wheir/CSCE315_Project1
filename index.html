@@ -2,16 +2,20 @@
 <html>
     <head>
         <link rel="stylesheet" href="redstar_land.css">
-        <title>Andrew Wheir's Webpage</title>
+        <title>Andrew Wheir's Webpage</title> 
     </head>
     <body>
-        <h1>Andrew Wheir (landing page)</h1>
-        <div class = "center">
-            <a href="about.html"     class = "button-1"> About Me<br></a>
-            <a href="resume.html"    class = "button-2"> Resume  <br></a>
-            <a href="service.html"   class = "button-3"> Service <br></a>
-            <a href="portfolio.html" class = "button-4"> Projects<br></a>
-            <a href="contact.html"   class = "button-5"> Contact <br></a>
+        <script src="functions.js"></script>
+        <h1>Andrew Wheir</h1>
+        <div class="sidenav">
+            <a onclick = "switchSub()" href="about.html">About Me<br></a>
+            <a onclick = "switchSub()" href="resume.html">Resume<br></a>
+            <a onclick = "switchSub()" href="service.html">Service<br></a>
+            <a onclick = "switchSub()" href="portfolio.html">Projects<br></a>
+            <a onclick = "switchSub()" href="contact.html">Contact</a>
+            <a onclick = "switchTheme()">Switch Theme</button></a>
+        </div>
+        <div class="body-text">
         </div>
     </body>
 </html>

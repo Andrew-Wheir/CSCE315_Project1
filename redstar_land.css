@@ -2,73 +2,66 @@
 
 body {
     background-color: rgb(34,34,34);
-    background-image: url("red_star2.png");
+    background-image: url("red_star.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: 35%;
-    overflow: hidden;
 }
 
-h1, a {
+p, h1, a {
     font-family: "Georgia";
-    font-size: 36px;
     color: rgb(239,235,191);
 }
 
+a {
+    font-size: 30px;
+    color: rgb(255,255,255);
+}
+
 h1 {
+    font-size: 42px;
+    font-weight: normal;
     text-align: left;
 
     border-color: rgb(88,88,88);
-    border-width: 10px;
+    border-width: 15px;
     border-bottom-style: solid;
 }
+
+.sidenav {
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 100px;
+
+    border-color: rgb(88,88,88);
+    border-width: 15px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+}
+  
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: rgb(241,241,241);
+}
+  
+
+.body-text {
+    margin-left: 200px;
+    margin-right: 300px;
+    padding: 0px 10px;
+}
+  
 
 a:link    {text-decoration: none;}
 a:visited {text-decoration: none;}
 a:active  {text-decoration: none;}
-a:hover   {color: rgb(241,241,241);}
-
-.center {
-    position: fixed;
-    width: 20px;
-    height: 20px;
-    top: 56%;
-    right: 50%;
-    /*border: 3px solid #73AD21;*/
-}
-
-.button-1 {
-    position: absolute;
-    top: 1000%;
-    text-align: center;
-}
-
-.button-2 {
-    position: absolute;
-    top: 43%;
-    right: 23.5%;
-    text-align: center;
-}
-
-.button-3 {
-    position: absolute;
-    top: 91%;
-    width: 123%;
-    text-align: center;
-}
-
-.button-4 {
-    position: absolute;
-    top: 91%;
-    width: 75%;
-    text-align: center;
-}
-
-
-.button-5 {
-    position: absolute;
-    top: 43%;
-    width: 54%;
-    text-align: center;
-}
